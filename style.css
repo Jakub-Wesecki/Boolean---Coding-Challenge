@@ -1,0 +1,94 @@
+/* Reset */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background & font */
+body
+{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Century Gothic';
+} 
+
+/* Black opaque backdrop */
+#backdrop
+{
+    width: 1000px;
+    height: 650px;
+    background-color: rgba(00, 00, 00, 0.5);
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+/* Logo & title */
+#logo
+{
+    width: 25%;
+    margin: 40px auto 10px;
+}
+
+header
+{
+    color: lime;
+    text-align: center;
+}
+
+
+/* Navigation buttons */
+nav
+{
+    background-color: lime;
+    text-align: center;
+    margin: 0 50px;
+    padding: 10px;
+}
+
+button
+{
+    padding: 0 5px;
+}
+
+/* Scooter rental */
+main
+{
+    color:white;
+    margin: 0 50px;
+}
+
+.scooter
+{
+    margin: 20px 0;
+}
+
+h3
+{
+    display: inline;
+}
+
+#progress1
+{
+    background-color: #f5b453;
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#progress2
+{
+    background-color: #1ec31e;
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#progress3
+{
+    background-color: #be4141;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+}
